@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mslv.com/studio/activation/model/userDefinedExitType" xmlns:udet="http://www.mslv.com/studio/activation/model/userDefinedExitType" xmlns:com="http://www.mslv.com/studio/core/model/common" xsi:type="userDefinedExitTypes" name="IPTV_UDET">
+  <com:displayName>UDET for IPTV</com:displayName>
+    <com:saveVersion>24</com:saveVersion>
+      <com:id>Md9+VmtSQiCZbhl48Ir6vA</com:id>
+        <userDefinedExitType>
+	    <networkElementDescriptior>
+	          <vendor>HUAWEI</vendor>
+		        <technology>IPTV</technology>
+			      <softwareLoad>V6R1</softwareLoad>
+			          </networkElementDescriptior>
+				      <searchPattern>0</searchPattern>
+				          <userType>IPTV_SUCCESS</userType>
+					      <baseType>SUCCEED</baseType>
+					          <description>Operation succeeded.</description>
+						    </userDefinedExitType>
+						      <userDefinedExitType>
+						          <networkElementDescriptior>
+							        <vendor>HUAWEI</vendor>
+								      <technology>IPTV</technology>
+								            <softwareLoad>V6R1</softwareLoad>
+									        </networkElementDescriptior>
+										    <searchPattern>3021</searchPattern>
+										        <userType>IPTV_INVLD_PROD_ID</userType>
+											    <baseType>FAIL</baseType>
+											        <description>Product id is invalid.</description>
+												  </userDefinedExitType>
+												    <userDefinedExitType>
+												        <networkElementDescriptior>
+													      <vendor>HUAWEI</vendor>
+													            <technology>IPTV</technology>
+														          <softwareLoad>V6R1</softwareLoad>
+															      </networkElementDescriptior>
+															          <searchPattern>3038</searchPattern>
+																      <userType>IPTV_INVLD_TML_TYPE</userType>
+																          <baseType>FAIL</baseType>
+																	      <description>Terminal type is invalid.</description>
+																	        </userDefinedExitType>
+																		  <userDefinedExitType>
+																		      <networkElementDescriptior>
+																		            <vendor>HUAWEI</vendor>
+																			          <technology>IPTV</technology>
+																				        <softwareLoad>V6R1</softwareLoad>
+																					    </networkElementDescriptior>
+																					        <searchPattern>3024</searchPattern>
+																						    <userType>IPTV_INVLD_OPER_TYPE</userType>
+																						        <baseType>FAIL</baseType>
+																							    <description>Order operation type is invalid.</description>
+																							      </userDefinedExitType>
+																							        <userDefinedExitType>
+																								    <networkElementDescriptior>
+																								          <vendor>HUAWEI</vendor>
+																									        <technology>IPTV</technology>
+																										      <softwareLoad>V6R1</softwareLoad>
+																										          </networkElementDescriptior>
+																											      <searchPattern>3023</searchPattern>
+																											          <userType>IPTV_INVLD_CONT_FLAG</userType>
+																												      <baseType>FAIL</baseType>
+																												          <description>Order continue flag is invalid.</description>
+																													    </userDefinedExitType>
+																													      <userDefinedExitType>
+																													          <networkElementDescriptior>
+																														        <vendor>HUAWEI</vendor>
+																															      <technology>IPTV</technology>
+																															            <softwareLoad>V6R1</softwareLoad>
+																																        </networkElementDescriptior>
+																																	    <searchPattern>3031</searchPattern>
+																																	        <userType>IPTV_INVL_START_TIME</userType>
+																																		    <baseType>FAIL</baseType>
+																																		        <description>Order start time invalid.</description>
+																																			  </userDefinedExitType>
+																																			    <userDefinedExitType>
+																																			        <networkElementDescriptior>
+																																				      <vendor>HUAWEI</vendor>
+																																				            <technology>IPTV</technology>
+																																					          <softwareLoad>V6R1</softwareLoad>
+																																						      </networkElementDescriptior>
+																																						          <searchPattern>3032</searchPattern>
+																																							      <userType>IPTV_INVLD_END_TIME</userType>
+																																							          <baseType>FAIL</baseType>
+																																								      <description>Order end time invalid.</description>
+																																								        </userDefinedExitType>
+																																									  <userDefinedExitType>
+																																									      <networkElementDescriptior>
+																																									            <vendor>HUAWEI</vendor>
+																																										          <technology>IPTV</technology>
+																																											        <softwareLoad>V6R1</softwareLoad>
+																																												    </networkElementDescriptior>
+																																												        <searchPattern>3011</searchPattern>
+																																													    <userType>IPTV_INVLD_SUBSC_ID</userType>
+																																													        <baseType>FAIL</baseType>
+																																														    <description>Subscriber id is invalid.</description>
+																																														      </userDefinedExitType>
+																																														        <userDefinedExitType>
+																																															    <networkElementDescriptior>
+																																															          <vendor>HUAWEI</vendor>
+																																																        <technology>IPTV</technology>
+																																																	      <softwareLoad>V6R1</softwareLoad>
+																																																	          </networkElementDescriptior>
+																																																		      <searchPattern>3012</searchPattern>
+																																																		          <userType>IPTV_INVLD_PASSWD</userType>
+																																																			      <baseType>FAIL</baseType>
+																																																			          <description>Password is invalid or null.</description>
+																																																				    </userDefinedExitType>
+																																																				      <userDefinedExitType>
+																																																				          <networkElementDescriptior>
+																																																					        <vendor>HUAWEI</vendor>
+																																																						      <technology>IPTV</technology>
+																																																						            <softwareLoad>V6R1</softwareLoad>
+																																																							        </networkElementDescriptior>
+																																																								    <searchPattern>3701</searchPattern>
+																																																								        <userType>IPTV_INVLD_ADMIN_PIN</userType>
+																																																									    <baseType>FAIL</baseType>
+																																																									        <description>Admin Profile PIN is invalid or null.</description>
+																																																										  </userDefinedExitType>
+																																																										    <userDefinedExitType>
+																																																										        <networkElementDescriptior>
+																																																											      <vendor>HUAWEI</vendor>
+																																																											            <technology>IPTV</technology>
+																																																												          <softwareLoad>V6R1</softwareLoad>
+																																																													      </networkElementDescriptior>
+																																																													          <searchPattern>3017</searchPattern>
+																																																														      <userType>IPTV_INVLD_BANDWIDTH</userType>
+																																																														          <baseType>FAIL</baseType>
+																																																															      <description>Bandwidth is invalid or null.</description>
+																																																															        </userDefinedExitType>
+																																																																  <userDefinedExitType>
+																																																																      <networkElementDescriptior>
+																																																																            <vendor>HUAWEI</vendor>
+																																																																	          <technology>IPTV</technology>
+																																																																		        <softwareLoad>V6R1</softwareLoad>
+																																																																			    </networkElementDescriptior>
+																																																																			        <searchPattern>3002</searchPattern>
+																																																																				    <userType>IPTV_INV_CUST_NAME</userType>
+																																																																				        <baseType>FAIL</baseType>
+																																																																					    <description>Customer name is invalid or null</description>
+																																																																					      </userDefinedExitType>
+																																																																					        <userDefinedExitType>
+																																																																						    <networkElementDescriptior>
+																																																																						          <vendor>HUAWEI</vendor>
+																																																																							        <technology>IPTV</technology>
+																																																																								      <softwareLoad>V6R1</softwareLoad>
+																																																																								          </networkElementDescriptior>
+																																																																									      <searchPattern>3001</searchPattern>
+																																																																									          <userType>IPTV_INV_CUST_ID</userType>
+																																																																										      <baseType>FAIL</baseType>
+																																																																										          <description>Customer id or accountNumber is invalid or null.</description>
+																																																																											    </userDefinedExitType>
+																																																																											      <userDefinedExitType>
+																																																																											          <networkElementDescriptior>
+																																																																												        <vendor>HUAWEI</vendor>
+																																																																													      <technology>IPTV</technology>
+																																																																													            <softwareLoad>V6R1</softwareLoad>
+																																																																														        </networkElementDescriptior>
+																																																																															    <searchPattern>4800</searchPattern>
+																																																																															        <userType>IPTV_CRT_HYBRID_FAIL</userType>
+																																																																																    <baseType>FAIL</baseType>
+																																																																																        <description>Hybrid subscriber creation failed. Terminal number or stb/ott count is invalid or null.</description>
+																																																																																	  </userDefinedExitType>
+																																																																																	    <userDefinedExitType>
+																																																																																	        <networkElementDescriptior>
+																																																																																		      <vendor>HUAWEI</vendor>
+																																																																																		            <technology>IPTV</technology>
+																																																																																			          <softwareLoad>V6R1</softwareLoad>
+																																																																																				      </networkElementDescriptior>
+																																																																																				          <searchPattern>4201</searchPattern>
+																																																																																					      <userType>IPTV_SUBSC_NOT_EXIST</userType>
+																																																																																					          <baseType>FAIL</baseType>
+																																																																																						      <description>The subscriber doesn't exist or is cancelled.</description>
+																																																																																						        </userDefinedExitType>
+																																																																																							  <userDefinedExitType>
+																																																																																							      <networkElementDescriptior>
+																																																																																							            <vendor>HUAWEI</vendor>
+																																																																																								          <technology>IPTV</technology>
+																																																																																									        <softwareLoad>V6R1</softwareLoad>
+																																																																																										    </networkElementDescriptior>
+																																																																																										        <searchPattern>4850</searchPattern>
+																																																																																											    <userType>IPTV_MOD_SUBSC_FAIL</userType>
+																																																																																											        <baseType>FAIL</baseType>
+																																																																																												    <description>Hybrid subscriber modification failed. Subcriber may not be created.</description>
+																																																																																												      </userDefinedExitType>
+																																																																																												        <userDefinedExitType>
+																																																																																													    <networkElementDescriptior>
+																																																																																													          <vendor>HUAWEI</vendor>
+																																																																																														        <technology>IPTV</technology>
+																																																																																															      <softwareLoad>V6R1</softwareLoad>
+																																																																																															          </networkElementDescriptior>
+																																																																																																      <searchPattern>3033</searchPattern>
+																																																																																																          <userType>IPTV_INVLD_SEQ_ID</userType>
+																																																																																																	      <baseType>FAIL</baseType>
+																																																																																																	          <description>Sequence id is invalid. May be null or over 20 chars limit</description>
+																																																																																																		    </userDefinedExitType>
+																																																																																																		      <userDefinedExitType>
+																																																																																																		          <networkElementDescriptior>
+																																																																																																			        <vendor>HUAWEI</vendor>
+																																																																																																				      <technology>IPTV</technology>
+																																																																																																				            <softwareLoad>V6R1</softwareLoad>
+																																																																																																					        </networkElementDescriptior>
+																																																																																																						    <searchPattern>8080</searchPattern>
+																																																																																																						        <userType>IPTV_TMLID_NOT_FOUND</userType>
+																																																																																																							    <baseType>FAIL</baseType>
+																																																																																																							        <description>TerminalID not found.</description>
+																																																																																																								  </userDefinedExitType>
+																																																																																																								    <userDefinedExitType>
+																																																																																																								        <networkElementDescriptior>
+																																																																																																									      <vendor>HUAWEI</vendor>
+																																																																																																									            <technology>IPTV</technology>
+																																																																																																										          <softwareLoad>V6R1</softwareLoad>
+																																																																																																											      </networkElementDescriptior>
+																																																																																																											          <searchPattern>Not Exist.</searchPattern>
+																																																																																																												      <userType>IPTV_SVC_NOT_EXIST</userType>
+																																																																																																												          <baseType>FAIL</baseType>
+																																																																																																													      <description>Delete service fail due to service exist for the login id.</description>
+																																																																																																													        </userDefinedExitType>
+																																																																																																														  <userDefinedExitType>
+																																																																																																														      <networkElementDescriptior>
+																																																																																																														            <vendor>HUAWEI</vendor>
+																																																																																																															          <technology>IPTV</technology>
+																																																																																																																        <softwareLoad>V6R1</softwareLoad>
+																																																																																																																	    </networkElementDescriptior>
+																																																																																																																	        <searchPattern>4001</searchPattern>
+																																																																																																																		    <userType>IPTV_CUST_INFO_NULL</userType>
+																																																																																																																		        <baseType>FAIL</baseType>
+																																																																																																																			    <description>Customer information is null</description>
+																																																																																																																			      </userDefinedExitType>
+																																																																																																																			        <userDefinedExitType>
+																																																																																																																				    <networkElementDescriptior>
+																																																																																																																				          <vendor>HUAWEI</vendor>
+																																																																																																																					        <technology>IPTV</technology>
+																																																																																																																						      <softwareLoad>V6R1</softwareLoad>
+																																																																																																																						          </networkElementDescriptior>
+																																																																																																																							      <searchPattern>4002</searchPattern>
+																																																																																																																							          <userType>IPTV_SUBS_INFO_NULL</userType>
+																																																																																																																								      <baseType>FAIL</baseType>
+																																																																																																																								          <description>Subscriber information is null</description>
+																																																																																																																									    </userDefinedExitType>
+																																																																																																																									      <userDefinedExitType>
+																																																																																																																									          <networkElementDescriptior>
+																																																																																																																										        <vendor>HUAWEI</vendor>
+																																																																																																																											      <technology>IPTV</technology>
+																																																																																																																											            <softwareLoad>V6R1</softwareLoad>
+																																																																																																																												        </networkElementDescriptior>
+																																																																																																																													    <searchPattern>4003</searchPattern>
+																																																																																																																													        <userType>IPTV_ORDER_INFO_NULL</userType>
+																																																																																																																														    <baseType>FAIL</baseType>
+																																																																																																																														        <description>Orderinfo array is null</description>
+																																																																																																																															  </userDefinedExitType>
+																																																																																																																															    <userDefinedExitType>
+																																																																																																																															        <networkElementDescriptior>
+																																																																																																																																      <vendor>HUAWEI</vendor>
+																																																																																																																																            <technology>IPTV</technology>
+																																																																																																																																	          <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																		      </networkElementDescriptior>
+																																																																																																																																		          <searchPattern>4004</searchPattern>
+																																																																																																																																			      <userType>IPTV_SUBSC_ID_EXIST</userType>
+																																																																																																																																			          <baseType>FAIL</baseType>
+																																																																																																																																				      <description>There exists the same subscriber id</description>
+																																																																																																																																				        </userDefinedExitType>
+																																																																																																																																					  <userDefinedExitType>
+																																																																																																																																					      <networkElementDescriptior>
+																																																																																																																																					            <vendor>HUAWEI</vendor>
+																																																																																																																																						          <technology>IPTV</technology>
+																																																																																																																																							        <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																								    </networkElementDescriptior>
+																																																																																																																																								        <searchPattern>4200</searchPattern>
+																																																																																																																																									    <userType>IPTV_MOD_SUBSC_FAIL</userType>
+																																																																																																																																									        <baseType>RETRY</baseType>
+																																																																																																																																										    <description>Subscriber modification failed</description>
+																																																																																																																																										      </userDefinedExitType>
+																																																																																																																																										        <userDefinedExitType>
+																																																																																																																																											    <networkElementDescriptior>
+																																																																																																																																											          <vendor>HUAWEI</vendor>
+																																																																																																																																												        <technology>IPTV</technology>
+																																																																																																																																													      <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																													          </networkElementDescriptior>
+																																																																																																																																														      <searchPattern>4202</searchPattern>
+																																																																																																																																														          <userType>IPTV_CUST_NOT_EXIST</userType>
+																																																																																																																																															      <baseType>FAIL</baseType>
+																																																																																																																																															          <description>The customer doesnâ€™t exist or is cancelled.</description>
+																																																																																																																																																    </userDefinedExitType>
+																																																																																																																																																      <userDefinedExitType>
+																																																																																																																																																          <networkElementDescriptior>
+																																																																																																																																																	        <vendor>HUAWEI</vendor>
+																																																																																																																																																		      <technology>IPTV</technology>
+																																																																																																																																																		            <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																			        </networkElementDescriptior>
+																																																																																																																																																				    <searchPattern>4203</searchPattern>
+																																																																																																																																																				        <userType>IPTV_SUBC_NOT_BELONG</userType>
+																																																																																																																																																					    <baseType>FAIL</baseType>
+																																																																																																																																																					        <description>The subscriber doesnâ€™t belong to this customer</description>
+																																																																																																																																																						  </userDefinedExitType>
+																																																																																																																																																						    <userDefinedExitType>
+																																																																																																																																																						        <networkElementDescriptior>
+																																																																																																																																																							      <vendor>HUAWEI</vendor>
+																																																																																																																																																							            <technology>IPTV</technology>
+																																																																																																																																																								          <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																									      </networkElementDescriptior>
+																																																																																																																																																									          <searchPattern>4207</searchPattern>
+																																																																																																																																																										      <userType>ITPV_ACTVT_ACC_FAIL</userType>
+																																																																																																																																																										          <baseType>RETRY</baseType>
+																																																																																																																																																											      <description>Activate account failed</description>
+																																																																																																																																																											        </userDefinedExitType>
+																																																																																																																																																												  <userDefinedExitType>
+																																																																																																																																																												      <networkElementDescriptior>
+																																																																																																																																																												            <vendor>HUAWEI</vendor>
+																																																																																																																																																													          <technology>IPTV</technology>
+																																																																																																																																																														        <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																															    </networkElementDescriptior>
+																																																																																																																																																															        <searchPattern>4208</searchPattern>
+																																																																																																																																																																    <userType>ITPV_SUSPND_ACC_FAIL</userType>
+																																																																																																																																																																        <baseType>RETRY</baseType>
+																																																																																																																																																																	    <description>ITPV_ACTVT_ACC_FAIL</description>
+																																																																																																																																																																	      </userDefinedExitType>
+																																																																																																																																																																	        <userDefinedExitType>
+																																																																																																																																																																		    <networkElementDescriptior>
+																																																																																																																																																																		          <vendor>HUAWEI</vendor>
+																																																																																																																																																																			        <technology>IPTV</technology>
+																																																																																																																																																																				      <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																				          </networkElementDescriptior>
+																																																																																																																																																																					      <searchPattern>4300</searchPattern>
+																																																																																																																																																																					          <userType>IPTV_ORD_AMEND_FAI</userType>
+																																																																																																																																																																						      <baseType>RETRY</baseType>
+																																																																																																																																																																						          <description>Order amendment failed</description>
+																																																																																																																																																																							    </userDefinedExitType>
+																																																																																																																																																																							      <userDefinedExitType>
+																																																																																																																																																																							          <networkElementDescriptior>
+																																																																																																																																																																								        <vendor>HUAWEI</vendor>
+																																																																																																																																																																									      <technology>IPTV</technology>
+																																																																																																																																																																									            <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																										        </networkElementDescriptior>
+																																																																																																																																																																											    <searchPattern>440</searchPattern>
+																																																																																																																																																																											        <userType>IPTV_ACC_DB_FAIL</userType>
+																																																																																																																																																																												    <baseType>FAIL</baseType>
+																																																																																																																																																																												        <description>Accessing database failed</description>
+																																																																																																																																																																													  </userDefinedExitType>
+																																																																																																																																																																													    <userDefinedExitType>
+																																																																																																																																																																													        <networkElementDescriptior>
+																																																																																																																																																																														      <vendor>HUAWEI</vendor>
+																																																																																																																																																																														            <technology>IPTV</technology>
+																																																																																																																																																																															          <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																      </networkElementDescriptior>
+																																																																																																																																																																																          <searchPattern>4401</searchPattern>
+																																																																																																																																																																																	      <userType>IPTV_OP_DB_FAIL</userType>
+																																																																																																																																																																																	          <baseType>FAIL</baseType>
+																																																																																																																																																																																		      <description>Operation on database failed</description>
+																																																																																																																																																																																		        </userDefinedExitType>
+																																																																																																																																																																																			  <userDefinedExitType>
+																																																																																																																																																																																			      <networkElementDescriptior>
+																																																																																																																																																																																			            <vendor>HUAWEI</vendor>
+																																																																																																																																																																																				          <technology>IPTV</technology>
+																																																																																																																																																																																					        <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																						    </networkElementDescriptior>
+																																																																																																																																																																																						        <searchPattern>4500</searchPattern>
+																																																																																																																																																																																							    <userType>IPTV_MW_CALL_FAIL</userType>
+																																																																																																																																																																																							        <baseType>FAIL</baseType>
+																																																																																																																																																																																								    <description>Failed to call interfaces on middleware</description>
+																																																																																																																																																																																								      </userDefinedExitType>
+																																																																																																																																																																																								        <userDefinedExitType>
+																																																																																																																																																																																									    <networkElementDescriptior>
+																																																																																																																																																																																									          <vendor>HUAWEI</vendor>
+																																																																																																																																																																																										        <technology>IPTV</technology>
+																																																																																																																																																																																											      <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																											          </networkElementDescriptior>
+																																																																																																																																																																																												      <searchPattern>4501</searchPattern>
+																																																																																																																																																																																												          <userType>IPTV_MW_RESULT_NULL</userType>
+																																																																																																																																																																																													      <baseType>FAIL</baseType>
+																																																																																																																																																																																													          <description>The result returned from middleware is null</description>
+																																																																																																																																																																																														    </userDefinedExitType>
+																																																																																																																																																																																														      <userDefinedExitType>
+																																																																																																																																																																																														          <networkElementDescriptior>
+																																																																																																																																																																																															        <vendor>HUAWEI</vendor>
+																																																																																																																																																																																																      <technology>IPTV</technology>
+																																																																																																																																																																																																            <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																																	        </networkElementDescriptior>
+																																																																																																																																																																																																		    <searchPattern>4600</searchPattern>
+																																																																																																																																																																																																		        <userType>IPTV_INVLID_LICENCE</userType>
+																																																																																																																																																																																																			    <baseType>FAIL</baseType>
+																																																																																																																																																																																																			        <description>The license file is invalid</description>
+																																																																																																																																																																																																				  </userDefinedExitType>
+																																																																																																																																																																																																				    <userDefinedExitType>
+																																																																																																																																																																																																				        <networkElementDescriptior>
+																																																																																																																																																																																																					      <vendor>HUAWEI</vendor>
+																																																																																																																																																																																																					            <technology>IPTV</technology>
+																																																																																																																																																																																																						          <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																																							      </networkElementDescriptior>
+																																																																																																																																																																																																							          <searchPattern>4601</searchPattern>
+																																																																																																																																																																																																								      <userType>IPTV_SUBS_EXCEED_LIC</userType>
+																																																																																																																																																																																																								          <baseType>FAIL</baseType>
+																																																																																																																																																																																																									      <description>The amount of subscriber has exceeded the license </description>
+																																																																																																																																																																																																									        </userDefinedExitType>
+																																																																																																																																																																																																										  <userDefinedExitType>
+																																																																																																																																																																																																										      <networkElementDescriptior>
+																																																																																																																																																																																																										            <vendor>HUAWEI</vendor>
+																																																																																																																																																																																																											          <technology>IPTV</technology>
+																																																																																																																																																																																																												        <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																																													    </networkElementDescriptior>
+																																																																																																																																																																																																													        <searchPattern>4602</searchPattern>
+																																																																																																																																																																																																														    <userType>IPTV_LICENSE_EXPIRED</userType>
+																																																																																																																																																																																																														        <baseType>FAIL</baseType>
+																																																																																																																																																																																																															    <description>The license has expired </description>
+																																																																																																																																																																																																															      </userDefinedExitType>
+																																																																																																																																																																																																															        <userDefinedExitType>
+																																																																																																																																																																																																																    <networkElementDescriptior>
+																																																																																																																																																																																																																          <vendor>HUAWEI</vendor>
+																																																																																																																																																																																																																	        <technology>IPTV</technology>
+																																																																																																																																																																																																																		      <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																																																		          </networkElementDescriptior>
+																																																																																																																																																																																																																			      <searchPattern>4711</searchPattern>
+																																																																																																																																																																																																																			          <userType>IPTV_CRT_OTTUSR_FAIL</userType>
+																																																																																																																																																																																																																				      <baseType>FAIL</baseType>
+																																																																																																																																																																																																																				          <description>OTT subscriber creation failed.</description>
+																																																																																																																																																																																																																					    </userDefinedExitType>
+																																																																																																																																																																																																																					      <userDefinedExitType>
+																																																																																																																																																																																																																					          <networkElementDescriptior>
+																																																																																																																																																																																																																						        <vendor>HUAWEI</vendor>
+																																																																																																																																																																																																																							      <technology>IPTV</technology>
+																																																																																																																																																																																																																							            <softwareLoad>V6R1</softwareLoad>
+																																																																																																																																																																																																																								        </networkElementDescriptior>
+																																																																																																																																																																																																																									    <searchPattern>4000</searchPattern>
+																																																																																																																																																																																																																									        <userType>IPTV_CRT_ACT_FAIL</userType>
+																																																																																																																																																																																																																										    <baseType>RETRY</baseType>
+																																																																																																																																																																																																																										        <description>Create account failed.</description>
+																																																																																																																																																																																																																											  </userDefinedExitType>
+																																																																																																																																																																																																																											  </com:modelEntity>
